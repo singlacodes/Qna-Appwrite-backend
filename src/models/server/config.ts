@@ -8,8 +8,6 @@ client
     .setEndpoint(env.appwrite.endpoint) // Your API Endpoint
     .setProject(env.appwrite.projectId) // Your project ID
     .setKey(env.appwrite.apikey) // Your secret API key
-    
-;
 
 const databases = new Databases(client)
 const avatars = new Avatars(client);
